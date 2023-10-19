@@ -35,7 +35,7 @@
                  Background="#49a078"
                  CornerRadius="20,20,0,0"
                  Grid.ColumnSpan="3"
-                Height="30"
+                Height="40"
                  MouseDown="Border_MouseDown"/>
             <Grid>
                 <TextBlock
@@ -46,6 +46,16 @@
                     Foreground="White"
                     FontSize="22"
                     FontWeight="Bold"/>
+                
+                <!--Window Buttons-->
+                <StackPanel
+                    HorizontalAlignment="Right"
+                    Margin="10,0"
+                    Orientation="Horizontal">
+                    <Button x:Name="btnMinimize"
+                            Content=""
+                            Style="{StaticResource IconButtonStyle}"/>
+                </StackPanel>
 
             </Grid>
             <Border/>
